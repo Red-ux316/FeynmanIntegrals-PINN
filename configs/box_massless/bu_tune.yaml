@@ -1,0 +1,32 @@
+# Example of a tuning file: hyperparameter tuning of the bottom-up massless box with Optuna.
+# The trainings of the report were not tuned; this file shows the format and runs as it is.
+# Each trial = the base configuration, shortened by `budget`, with values from `search_space`
+# (dotted paths into the configuration; model.width / model.depth -> model.hidden).
+# The best values are written as a full training configuration (best_config.yaml).
+base_config: bu_baseline.yaml
+
+study:
+  name: box_massless_bu_example
+  part: real
+  n_trials: 30
+  sampler: tpe
+  seed: 0
+  pruner: {name: median, n_startup_trials: 5, n_warmup_steps: 10}
+
+budget:                         # short trials: 40 epochs of 128 batches (8192 points)
+  training:
+    epochs: 40
+    log_every: 0
+    checkpoint_every: 0
+  collocation:
+    n_per_epoch: 8192
+
+full_training:                  # epochs written in best_config.yaml
+  epochs: 400
+
+search_space:
+  model.width: {type: categorical, choices: [16, 32, 64]}
+  model.depth: {type: int, low: 2, high: 4}
+  model.activation: {type: categorical, choices: [gelu, tanh, silu]}
+  training.optimizer.lr: {type: float, low: 1.0e-3, high: 3.0e-2, log: true}
+  balancing.temperature: {type: categorical, choices: [0.1, 0.5, 1.0]}

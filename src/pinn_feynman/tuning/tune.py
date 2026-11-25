@@ -1,6 +1,6 @@
 """Run (or resume) a tuning study, idempotently.
 
-    python -m pinn_feynman.tuning.tune configs/box_massless/tune.yaml [--n-trials N] [--out DIR] [--max-minutes M]
+    python -m pinn_feynman.tuning.tune configs/box_massless/bu_tune.yaml [--n-trials N] [--out DIR] [--max-minutes M]
 
 The study lives in <out>/<study name>/ (default runs/tuning/): study.db,
 trials.csv, best_config.yaml (a full training configuration), summary.json and figures.

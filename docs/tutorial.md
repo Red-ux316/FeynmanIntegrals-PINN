@@ -162,9 +162,9 @@ with a CUDA build of PyTorch and `device: cuda` (or `auto`) in the `training` se
 
 A tuning study starts from a training configuration and draws the values of some of its fields with Optuna. Its file
 (format in `src/pinn_feynman/tuning/README.md`) names the base configuration, the budget of the short trials and the
-search space, for example `configs/box_massless/tune.yaml`:
+search space, for example `configs/box_massless/bu_tune.yaml` (an example: the trainings of the report were not tuned):
 ```
-python -m pinn_feynman.tuning.tune configs/box_massless/tune.yaml
+python -m pinn_feynman.tuning.tune configs/box_massless/bu_tune.yaml
 ```
 Trials that do poorly are stopped early. In `storage/runs/tuning/<study>/` it writes the trial table, the Optuna plots
 and **`best_config.yaml`**, the best configuration ready for a full training run. Rerunning the same command

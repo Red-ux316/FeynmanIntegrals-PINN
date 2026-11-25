@@ -1,11 +1,11 @@
 # pinn_feynman.tuning
 
-Hyperparameter tuning with **Optuna**. The search space is **per problem**, in `configs/<problem>/tune.yaml`, and starts from a training configuration of the problem.
+Hyperparameter tuning with **Optuna**. The search space is **per problem**, in a tuning file under `configs/<problem>/` (example: `configs/box_massless/bu_tune.yaml`), and starts from a training configuration of the problem.
 
 ## The tuning file
 
 ```yaml
-base_config: baseline.yaml         # training configuration to start from
+base_config: bu_baseline.yaml      # training configuration to start from
 study:   {name, part, n_trials, sampler: tpe|random, seed, pruner: {name: median|none, ...}}   # n_trials = TOTAL
 budget:  {...}                     # overrides the base for the short trials (epochs, points per epoch)
 full_training: {epochs: 400}       # epochs written to best_config.yaml
