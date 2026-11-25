@@ -8,7 +8,7 @@ Frobenius expansion of the massless box around $x=0$, in Boni's basis: the local
 | [plot_parts.py](plot_parts.py) | $M_3^{(k)}$ and $\mathrm dM_3^{(k)}/\mathrm dx$, $k=-1,0,1$, on $[-0.6,0)$: true value, analytic part, singular part → `figures/parts_x0.pdf`, `figures/parts_x0_derivative.pdf` |
 | [plot_series_error.py](plot_series_error.py) | relative difference between the local form with $\tilde U$ truncated to $N$ coefficients and the exact box at $\varepsilon=0.3$, on $-10^{-1}\ge x\ge-10^{-9}$ → `figures/series_error.pdf` |
 
-The exact box comes from the package (`pinn_feynman.reference.box_massless`), so the package must be installed (see the root README). Run from the repository root:
+The exact box comes from the package (`pinn_feynman.reference.box_massless`), so the package must be installed (see the root README). Run from the repository root (`plot_parts.py` takes about 10 minutes on one CPU core, `plot_series_error.py` about 30 seconds):
 
 ```
 python frobenius/plot_parts.py

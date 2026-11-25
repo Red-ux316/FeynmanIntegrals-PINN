@@ -3,7 +3,7 @@ form with ln(-x) = 0) and the singular part (the terms with powers of ln(-x)); r
 Constants fixed at x0 = -0.3, 100 coefficients of U~, 60 points on [-0.6, -0.002]. Linear axes; the grey band is the
 domain of the thesis.
 
-Writes figures/parts_x0.pdf and figures/parts_x0_derivative.pdf. Run from the repository root (a few minutes):
+Writes figures/parts_x0.pdf and figures/parts_x0_derivative.pdf. Run from the repository root (about 10 minutes on one CPU core):
     python frobenius/plot_parts.py
 """
 from pathlib import Path
