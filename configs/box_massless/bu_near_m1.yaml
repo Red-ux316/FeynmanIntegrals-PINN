@@ -1,0 +1,11 @@
+base: bu_sched_exponential.yaml
+
+data:
+  domain: [-0.999, -0.9]
+  datasets:
+    test:
+      n_nodes: 1024
+
+training:
+  diagnostics:
+    gradients: {every: 64}

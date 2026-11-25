@@ -1,0 +1,4 @@
+base: bu_phys_3_27.yaml
+
+data:
+  domain: [3.01, 26.99]

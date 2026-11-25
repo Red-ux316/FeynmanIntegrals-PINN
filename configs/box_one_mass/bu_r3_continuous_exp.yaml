@@ -1,0 +1,11 @@
+base: bu_baseline.yaml
+
+collocation:
+  name: r3_continuous
+  n_per_epoch: 65536
+  batch_size: 128
+
+training:
+  scheduler:
+    name: exponential
+    gamma: 0.97724

@@ -1,0 +1,13 @@
+runs:
+  - {config: box_massless/bu_margin_01pc_r3_continuous_exp, part: real, seed: 0}
+  - {config: box_massless/bu_margin_01pc_r3_continuous_exp, part: real, seed: 1}
+  - {config: box_massless/bu_margin_01pc_r3_continuous_exp, part: real, seed: 2}
+  - {config: box_massless/bu_near_001_0001_r3_continuous, part: real, seed: 0}
+  - {config: box_massless/bu_near_001_0001_r3_continuous, part: real, seed: 1}
+  - {config: box_massless/bu_near_001_0001_r3_continuous, part: real, seed: 2}
+
+report:
+  name: bu_r3_near_massless
+  domains:
+    margin_01pc: box_massless/bu_margin_01pc_exp
+    near_001_0001: box_massless/bu_near_001_0001

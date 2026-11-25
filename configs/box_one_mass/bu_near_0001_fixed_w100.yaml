@@ -1,0 +1,5 @@
+base: bu_near_0001.yaml
+
+balancing:
+  name: fixed
+  weights: [100.0, 1.0]

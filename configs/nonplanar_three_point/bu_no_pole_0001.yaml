@@ -1,0 +1,8 @@
+base: bu_no_pole.yaml
+
+data:
+  domain: [-20.0, -0.001]
+
+training:
+  diagnostics:
+    gradients: {every: 64}

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pinn-feynman"
+version = "0.1.0"
+description = "Physics-informed neural networks for the differential equations of Feynman master integrals"
+requires-python = ">=3.12"
+# Runtime dependencies are provided by the conda environment (environment.yml).
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+# data files read by the package (starting values of the sunrise)
+pinn_feynman = ["reference/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# torch.func.jvp scripts its own JVP decompositions (torch/_decomp/decompositions_for_jvp.py) with the
+# deprecated torch.jit.script: a warning from inside torch, not from this package
+filterwarnings = ["ignore:`torch.jit.script` is deprecated:FutureWarning:torch.jit._script"]
+markers = ["slow: compiles a pySecDec package (needs pySecDec, g++ and make; skipped without pySecDec)"]

@@ -1,0 +1,5 @@
+base: bu_margin_01pc_exp.yaml
+
+balancing:
+  name: fixed
+  weights: [1.0, 1.0]

@@ -1,0 +1,19 @@
+runs:
+  - {config: box_massless/bu_baseline_gradrec, part: real, seed: 3}
+  - {config: box_massless/bu_baseline_gradrec, part: real, seed: 4}
+  - {config: box_massless/bu_sched_exponential_gradrec, part: real, seed: 1}
+  - {config: box_massless/bu_sched_exponential_gradrec, part: real, seed: 2}
+  - {config: box_massless/bu_sched_exponential_gradrec, part: real, seed: 3}
+  - {config: box_massless/bu_sched_exponential_gradrec, part: real, seed: 4}
+  - {config: box_massless/bu_r3_continuous_exp_gradrec, part: real, seed: 1}
+  - {config: box_massless/bu_r3_continuous_exp_gradrec, part: real, seed: 2}
+  - {config: box_massless/bu_w64d4_exp_gradrec, part: real, seed: 1}
+  - {config: box_massless/bu_w64d4_exp_gradrec, part: real, seed: 2}
+  - {config: box_massless/bu_sched_exp_1000ep, part: imag, seed: 0}
+  - {config: box_massless/bu_sched_exp_1000ep, part: imag, seed: 1}
+  - {config: box_massless/bu_sched_exp_1000ep, part: imag, seed: 2}
+
+report:
+  name: bu_gradrec_massless
+  domains:
+    boni: box_massless/bu_baseline

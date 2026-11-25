@@ -1,0 +1,4 @@
+base: bu_near_03_0001.yaml
+
+point_weighting:
+  name: distance

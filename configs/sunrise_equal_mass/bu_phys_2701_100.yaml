@@ -1,0 +1,4 @@
+base: bu_phys_above.yaml
+
+data:
+  domain: [27.01, 100.0]

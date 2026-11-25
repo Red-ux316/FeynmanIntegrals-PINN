@@ -1,0 +1,5 @@
+base: bu_baseline.yaml
+
+training:
+  optimizer:
+    lr: 3.0e-3

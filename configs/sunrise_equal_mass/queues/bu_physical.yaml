@@ -1,0 +1,11 @@
+runs:
+  - {config: sunrise_equal_mass/bu_phys_3_27, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_above, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_above, part: imag, seed: 0}
+
+report:
+  name: bu_physical_sunrise
+  domains:
+    s_0_3: sunrise_equal_mass/bu_phys_0_3
+    s_3_27: sunrise_equal_mass/bu_phys_3_27
+    s_above_27: sunrise_equal_mass/bu_phys_above

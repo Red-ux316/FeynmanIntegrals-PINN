@@ -1,0 +1,18 @@
+runs:
+  - {config: sunrise_equal_mass/bu_phys_17_269, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: imag, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_17_269, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: imag, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_17_269, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: imag, seed: 2}
+
+report:
+  name: bu_near_singularity_sunrise
+  domains:
+    s_17_269: sunrise_equal_mass/bu_phys_17_269
+    s_271_37: sunrise_equal_mass/bu_phys_271_37
+    s_01_001: sunrise_equal_mass/bu_near_01_001
+    s_1_001: sunrise_equal_mass/bu_near_1_001

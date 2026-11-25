@@ -1,0 +1,9 @@
+base: bu_baseline.yaml
+
+balancing:
+  scales: [100, 1]
+
+training:
+  scheduler:
+    name: exponential
+    gamma: 0.97163

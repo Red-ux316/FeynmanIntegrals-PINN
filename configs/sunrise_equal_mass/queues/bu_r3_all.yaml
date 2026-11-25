@@ -1,0 +1,20 @@
+runs:
+  - {config: sunrise_equal_mass/bu_phys_271_37_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_28_37_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_above_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_17_269_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_3_27_r3_continuous, part: real, seed: 0}
+
+report:
+  name: bu_r3_all_sunrise
+  domains:
+    baseline: sunrise_equal_mass/bu_baseline
+    dom_01: sunrise_equal_mass/bu_dom_01
+    near_01_001: sunrise_equal_mass/bu_near_01_001
+    near_1_001: sunrise_equal_mass/bu_near_1_001
+    phys_271_37: sunrise_equal_mass/bu_phys_271_37
+    phys_28_37: sunrise_equal_mass/bu_phys_28_37
+    phys_above: sunrise_equal_mass/bu_phys_above
+    phys_0_3: sunrise_equal_mass/bu_phys_0_3
+    phys_17_269: sunrise_equal_mass/bu_phys_17_269
+    phys_3_27: sunrise_equal_mass/bu_phys_3_27

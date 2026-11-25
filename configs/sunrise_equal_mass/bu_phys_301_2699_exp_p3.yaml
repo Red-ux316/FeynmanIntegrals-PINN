@@ -1,0 +1,4 @@
+base: bu_phys_301_2699_exp.yaml
+
+point_weighting:
+  name: distance

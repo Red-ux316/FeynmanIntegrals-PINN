@@ -1,0 +1,33 @@
+runs:
+  - {config: box_massless/bu_margin_01pc_exp, part: imag, seed: 0}
+  - {config: box_massless/bu_margin_01pc_exp, part: imag, seed: 1}
+  - {config: box_massless/bu_margin_01pc_exp, part: imag, seed: 2}
+  - {config: box_one_mass/bu_near_001, part: imag, seed: 0}
+  - {config: box_one_mass/bu_near_001, part: imag, seed: 1}
+  - {config: box_one_mass/bu_near_001, part: imag, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp, part: imag, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp, part: imag, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp, part: imag, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp, part: imag, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp, part: imag, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp, part: imag, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_above_exp, part: imag, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_above_exp, part: imag, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_above_exp, part: imag, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_100, part: imag, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_100, part: imag, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_100, part: imag, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_2701_100, part: imag, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_2701_100, part: imag, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_2701_100, part: imag, seed: 2}
+
+report:
+  name: bu_seeds_3x3
+  domains:
+    massless_m09_m0001: box_massless/bu_margin_01pc_exp
+    one_mass_margin_001: box_one_mass/bu_near_001
+    sunrise_28_37: sunrise_equal_mass/bu_phys_28_37_exp
+    sunrise_271_37: sunrise_equal_mass/bu_phys_271_37_exp
+    sunrise_30_100: sunrise_equal_mass/bu_phys_above_exp
+    sunrise_271_100: sunrise_equal_mass/bu_phys_271_100
+    sunrise_2701_100: sunrise_equal_mass/bu_phys_2701_100

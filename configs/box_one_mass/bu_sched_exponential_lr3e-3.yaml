@@ -1,0 +1,8 @@
+base: bu_sched_exponential.yaml
+
+training:
+  optimizer:
+    lr: 3.0e-3
+  scheduler:
+    name: exponential
+    gamma: 0.973665

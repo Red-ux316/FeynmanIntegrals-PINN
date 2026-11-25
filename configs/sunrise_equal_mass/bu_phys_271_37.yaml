@@ -1,0 +1,8 @@
+base: bu_phys_above.yaml
+
+data:
+  domain: [27.1, 37.0]
+
+training:
+  diagnostics:
+    gradients: {every: 64}

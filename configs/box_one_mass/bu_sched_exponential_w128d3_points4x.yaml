@@ -1,0 +1,7 @@
+base: bu_sched_exponential.yaml
+
+model:
+  hidden: [128, 128, 128]
+
+collocation:
+  n_per_epoch: 262144

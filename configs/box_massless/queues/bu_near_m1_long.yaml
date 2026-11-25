@@ -1,0 +1,12 @@
+runs:
+  - {config: box_massless/bu_near_m1, part: real, seed: 0}
+  - {config: box_massless/bu_near_m1, part: real, seed: 1}
+  - {config: box_massless/bu_near_m1, part: real, seed: 2}
+  - {config: box_massless/bu_near_m1_long, part: real, seed: 0}
+  - {config: box_massless/bu_near_m1_long, part: real, seed: 1}
+  - {config: box_massless/bu_near_m1_long, part: real, seed: 2}
+
+report:
+  name: bu_near_m1_long_massless
+  domains:
+    near_m1: box_massless/bu_near_m1

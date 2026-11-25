@@ -1,0 +1,12 @@
+base: bu_base.yaml
+
+data:
+  problem: sunrise_equal_mass_positive
+  domain: [30.0, 100.0]
+
+physics:
+  system: sunrise_equal_mass_positive_bu
+
+training:
+  diagnostics:
+    gradients: {every: 64}

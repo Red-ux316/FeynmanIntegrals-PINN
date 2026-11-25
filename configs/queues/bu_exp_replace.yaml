@@ -1,0 +1,89 @@
+runs:
+  - {config: box_massless/bu_sched_exponential, part: imag, seed: 0}
+  - {config: box_massless/bu_sched_exponential, part: imag, seed: 1}
+  - {config: box_massless/bu_sched_exponential, part: imag, seed: 2}
+  - {config: box_one_mass/bu_sched_exponential, part: imag, seed: 0}
+  - {config: box_one_mass/bu_sched_exponential, part: imag, seed: 1}
+  - {config: box_one_mass/bu_sched_exponential, part: imag, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp_p3, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp_p3, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_exp_p3, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp_p3, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp_p3, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_31_269_exp_p3, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp_p3, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp_p3, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp_p3, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_p3, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_p3, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_p3, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp_p3, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp_p3, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_100_exp_p3, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp_p3, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp_p3, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_exp_p3, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_p3, part: imag, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_p3, part: imag, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_p3, part: imag, seed: 2}
+  - {config: box_massless/bu_sched_exponential_p3, part: real, seed: 0}
+  - {config: box_massless/bu_sched_exponential_p3, part: real, seed: 1}
+  - {config: box_massless/bu_sched_exponential_p3, part: real, seed: 2}
+  - {config: box_massless/bu_sched_exponential_p3, part: imag, seed: 0}
+  - {config: box_massless/bu_sched_exponential_p3, part: imag, seed: 1}
+  - {config: box_massless/bu_sched_exponential_p3, part: imag, seed: 2}
+  - {config: box_one_mass/bu_sched_exponential_p3, part: real, seed: 0}
+  - {config: box_one_mass/bu_sched_exponential_p3, part: real, seed: 1}
+  - {config: box_one_mass/bu_sched_exponential_p3, part: real, seed: 2}
+  - {config: box_one_mass/bu_sched_exponential_p3, part: imag, seed: 0}
+  - {config: box_one_mass/bu_sched_exponential_p3, part: imag, seed: 1}
+  - {config: box_one_mass/bu_sched_exponential_p3, part: imag, seed: 2}
+  - {config: box_one_mass/bu_sched_exponential_lr3e-3, part: real, seed: 0}
+  - {config: box_one_mass/bu_sched_exponential_lr3e-3, part: real, seed: 1}
+  - {config: box_one_mass/bu_sched_exponential_lr3e-3, part: real, seed: 2}
+  - {config: box_one_mass/bu_sched_exponential_points4x, part: real, seed: 0}
+  - {config: box_one_mass/bu_sched_exponential_points4x, part: real, seed: 1}
+  - {config: box_one_mass/bu_sched_exponential_points4x, part: real, seed: 2}
+  - {config: box_one_mass/bu_sched_exponential_w128d3, part: real, seed: 0}
+  - {config: box_one_mass/bu_sched_exponential_w128d3, part: real, seed: 1}
+  - {config: box_one_mass/bu_sched_exponential_w128d3, part: real, seed: 2}
+  - {config: box_one_mass/bu_sched_exponential_w128d3_points4x, part: real, seed: 0}
+  - {config: box_one_mass/bu_sched_exponential_w128d3_points4x, part: real, seed: 1}
+  - {config: box_one_mass/bu_sched_exponential_w128d3_points4x, part: real, seed: 2}
+  - {config: box_one_mass/bu_sched_exponential_epochs600, part: real, seed: 0}
+
+report:
+  name: bu_exp_replace
+  domains:
+    massless_std: box_massless/bu_sched_exponential
+    one_mass_margin_01: box_one_mass/bu_sched_exponential
+    sunrise_301_2699: sunrise_equal_mass/bu_phys_301_2699_exp
+    sunrise_31_269: sunrise_equal_mass/bu_phys_31_269_exp
+    sunrise_17_269: sunrise_equal_mass/bu_phys_17_269_exp
+    sunrise_271_37: sunrise_equal_mass/bu_phys_271_37_exp
+    sunrise_271_100: sunrise_equal_mass/bu_phys_271_100_exp
+    sunrise_2701_100: sunrise_equal_mass/bu_phys_2701_100_exp

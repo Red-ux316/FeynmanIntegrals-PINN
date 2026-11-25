@@ -1,0 +1,14 @@
+runs:
+  - {config: box_one_mass/bu_baseline, part: imag, seed: 0}
+  - {config: box_one_mass/bu_baseline, part: imag, seed: 1}
+  - {config: box_one_mass/bu_baseline, part: imag, seed: 2}
+  - {config: box_one_mass/bu_baseline, part: imag, seed: 3}
+  - {config: box_one_mass/bu_points4x, part: imag, seed: 0}
+  - {config: box_one_mass/bu_points4x, part: imag, seed: 1}
+  - {config: box_one_mass/bu_points4x, part: imag, seed: 2}
+  - {config: box_one_mass/bu_points4x, part: imag, seed: 3}
+
+report:
+  name: bu_imag_one_mass
+  domains:
+    triangle: box_one_mass/bu_baseline

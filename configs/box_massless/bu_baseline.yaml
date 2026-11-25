@@ -1,0 +1,4 @@
+base: baseline.yaml
+
+physics:
+  system: box_massless_bu

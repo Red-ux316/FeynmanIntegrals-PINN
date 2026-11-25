@@ -1,0 +1,6 @@
+base: bu_sched_exponential.yaml
+
+data:
+  domain:
+    name: triangle
+    margin: 0.01

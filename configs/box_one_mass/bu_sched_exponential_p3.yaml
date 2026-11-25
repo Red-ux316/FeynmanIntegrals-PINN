@@ -1,0 +1,4 @@
+base: bu_sched_exponential.yaml
+
+point_weighting:
+  name: distance

@@ -1,0 +1,4 @@
+base: bu_no_pole_0001_exp_eps4.yaml
+
+data:
+  domain: [-3.9, -0.1]

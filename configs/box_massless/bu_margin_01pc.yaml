@@ -1,0 +1,7 @@
+base: bu_baseline.yaml
+
+data:
+  domain: [-0.9, -0.001]
+  datasets:
+    test:
+      n_nodes: 1024

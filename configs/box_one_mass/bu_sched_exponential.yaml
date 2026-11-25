@@ -1,0 +1,6 @@
+base: bu_baseline.yaml
+
+training:
+  scheduler:
+    name: exponential
+    gamma: 0.97724

@@ -1,0 +1,60 @@
+runs:
+  - {config: box_massless/bu_near_0001_00001_p3, part: real, seed: 0}
+  - {config: box_massless/bu_near_001_0001_p3, part: real, seed: 0}
+  - {config: box_massless/bu_near_01_0001_p3, part: real, seed: 0}
+  - {config: box_massless/bu_near_03_0001_p3, part: real, seed: 0}
+  - {config: box_massless/bu_margin_01pc_exp_p3, part: real, seed: 0}
+  - {config: box_massless/bu_near_m1_p3, part: real, seed: 0}
+  - {config: box_massless/bu_baseline_p3, part: real, seed: 0}
+  - {config: box_massless/bu_near_0001_00001_p3, part: real, seed: 1}
+  - {config: box_massless/bu_near_001_0001_p3, part: real, seed: 1}
+  - {config: box_massless/bu_near_01_0001_p3, part: real, seed: 1}
+  - {config: box_massless/bu_near_03_0001_p3, part: real, seed: 1}
+  - {config: box_massless/bu_margin_01pc_exp_p3, part: real, seed: 1}
+  - {config: box_massless/bu_near_m1_p3, part: real, seed: 1}
+  - {config: box_massless/bu_baseline_p3, part: real, seed: 1}
+  - {config: box_massless/bu_near_0001_00001_p3, part: real, seed: 2}
+  - {config: box_massless/bu_near_001_0001_p3, part: real, seed: 2}
+  - {config: box_massless/bu_near_01_0001_p3, part: real, seed: 2}
+  - {config: box_massless/bu_near_03_0001_p3, part: real, seed: 2}
+  - {config: box_massless/bu_margin_01pc_exp_p3, part: real, seed: 2}
+  - {config: box_massless/bu_near_m1_p3, part: real, seed: 2}
+  - {config: box_massless/bu_baseline_p3, part: real, seed: 2}
+  - {config: box_massless/bu_baseline_p3, part: imag, seed: 0}
+  - {config: box_massless/bu_baseline_p3, part: imag, seed: 1}
+  - {config: box_massless/bu_baseline_p3, part: imag, seed: 2}
+  - {config: box_massless/bu_near_0001_00001, part: real, seed: 0}
+  - {config: box_massless/bu_near_001_0001, part: real, seed: 0}
+  - {config: box_massless/bu_near_01_0001, part: real, seed: 0}
+  - {config: box_massless/bu_near_03_0001, part: real, seed: 0}
+  - {config: box_massless/bu_margin_01pc_exp, part: real, seed: 0}
+  - {config: box_massless/bu_near_m1, part: real, seed: 0}
+  - {config: box_massless/bu_baseline, part: real, seed: 0}
+  - {config: box_massless/bu_near_0001_00001, part: real, seed: 1}
+  - {config: box_massless/bu_near_001_0001, part: real, seed: 1}
+  - {config: box_massless/bu_near_01_0001, part: real, seed: 1}
+  - {config: box_massless/bu_near_03_0001, part: real, seed: 1}
+  - {config: box_massless/bu_margin_01pc_exp, part: real, seed: 1}
+  - {config: box_massless/bu_near_m1, part: real, seed: 1}
+  - {config: box_massless/bu_baseline, part: real, seed: 1}
+  - {config: box_massless/bu_near_0001_00001, part: real, seed: 2}
+  - {config: box_massless/bu_near_001_0001, part: real, seed: 2}
+  - {config: box_massless/bu_near_01_0001, part: real, seed: 2}
+  - {config: box_massless/bu_near_03_0001, part: real, seed: 2}
+  - {config: box_massless/bu_margin_01pc_exp, part: real, seed: 2}
+  - {config: box_massless/bu_near_m1, part: real, seed: 2}
+  - {config: box_massless/bu_baseline, part: real, seed: 2}
+  - {config: box_massless/bu_baseline, part: imag, seed: 0}
+  - {config: box_massless/bu_baseline, part: imag, seed: 1}
+  - {config: box_massless/bu_baseline, part: imag, seed: 2}
+
+report:
+  name: bu_p3_box_massless
+  domains:
+    near_0001_00001: box_massless/bu_near_0001_00001
+    near_001_0001: box_massless/bu_near_001_0001
+    near_01_0001: box_massless/bu_near_01_0001
+    near_03_0001: box_massless/bu_near_03_0001
+    margin_01pc_exp: box_massless/bu_margin_01pc_exp
+    near_m1: box_massless/bu_near_m1
+    baseline: box_massless/bu_baseline

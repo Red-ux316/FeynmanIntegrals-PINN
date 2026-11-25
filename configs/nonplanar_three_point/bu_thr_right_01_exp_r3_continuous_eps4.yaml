@@ -1,0 +1,6 @@
+base: bu_thr_right_01_exp_eps4.yaml
+
+collocation:
+  name: r3_continuous
+  n_per_epoch: 65536
+  batch_size: 128

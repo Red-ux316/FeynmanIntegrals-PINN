@@ -1,0 +1,9 @@
+problem,s,master,order,real,imag,error,digits,source
+sunrise_equal_mass,-1.0,I_11100,0,7.13367212822323982,0,4.07346061524176309e-13,,"pySecDec, requested epsrel 1e-9; error = declared absolute error"
+sunrise_equal_mass,-1.0,I_21100,0,1.22807700774595707,0,9.15359473810356809e-14,,"pySecDec, requested epsrel 1e-9; error = declared absolute error"
+sunrise_equal_mass_positive,1.5,I_11100,0,10.23775709385094678794,0,,12,"AMFlow + Kira, s + i0, 12 digits"
+sunrise_equal_mass_positive,1.5,I_21100,0,1.367704540796127021807,0,,12,"AMFlow + Kira, s + i0, 12 digits"
+sunrise_equal_mass_positive,15.0,I_11100,0,25.73138903443567926388,0,,12,"AMFlow + Kira, s + i0, 12 digits"
+sunrise_equal_mass_positive,15.0,I_21100,0,2.290039707554852199678,0,,12,"AMFlow + Kira, s + i0, 12 digits"
+sunrise_equal_mass_positive,45.0,I_11100,0,47.08143928675588796295,-7.678606892796251415234,,10,"AMFlow + Kira, s + i0, 10 digits"
+sunrise_equal_mass_positive,45.0,I_21100,0,4.921579197304643216171,2.734376809586138712405,,10,"AMFlow + Kira, s + i0, 10 digits"

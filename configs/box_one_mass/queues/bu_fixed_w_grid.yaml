@@ -1,0 +1,24 @@
+runs:
+  - {config: box_one_mass/bu_near_0001_fixed_w01, part: real, seed: 0}
+  - {config: box_one_mass/bu_near_0001_fixed_w1, part: real, seed: 0}
+  - {config: box_one_mass/bu_near_0001_fixed_w10, part: real, seed: 0}
+  - {config: box_one_mass/bu_near_0001_fixed_w100, part: real, seed: 0}
+  - {config: box_one_mass/bu_near_0001_fixed_w1000, part: real, seed: 0}
+  - {config: box_one_mass/bu_near_0001_fixed_w01, part: real, seed: 1}
+  - {config: box_one_mass/bu_near_0001_fixed_w1, part: real, seed: 1}
+  - {config: box_one_mass/bu_near_0001_fixed_w10, part: real, seed: 1}
+  - {config: box_one_mass/bu_near_0001_fixed_w100, part: real, seed: 1}
+  - {config: box_one_mass/bu_near_0001_fixed_w1000, part: real, seed: 1}
+  - {config: box_one_mass/bu_near_0001_fixed_w01, part: real, seed: 2}
+  - {config: box_one_mass/bu_near_0001_fixed_w1, part: real, seed: 2}
+  - {config: box_one_mass/bu_near_0001_fixed_w10, part: real, seed: 2}
+  - {config: box_one_mass/bu_near_0001_fixed_w100, part: real, seed: 2}
+  - {config: box_one_mass/bu_near_0001_fixed_w1000, part: real, seed: 2}
+  - {config: box_one_mass/bu_near_0001, part: real, seed: 0}
+  - {config: box_one_mass/bu_near_0001, part: real, seed: 1}
+  - {config: box_one_mass/bu_near_0001, part: real, seed: 2}
+
+report:
+  name: bu_fixed_w_grid_one_mass
+  domains:
+    margin_0001: box_one_mass/bu_near_0001

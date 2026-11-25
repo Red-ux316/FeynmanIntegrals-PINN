@@ -1,0 +1,7 @@
+base: bu_sched_exp_1000ep.yaml
+
+training:
+  epochs: 2000
+  scheduler:
+    name: exponential
+    gamma: 0.994260

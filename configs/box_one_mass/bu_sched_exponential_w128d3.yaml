@@ -1,0 +1,4 @@
+base: bu_sched_exponential.yaml
+
+model:
+  hidden: [128, 128, 128]

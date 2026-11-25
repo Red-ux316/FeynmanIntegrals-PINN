@@ -1,0 +1,11 @@
+base: bu_near_01_0001.yaml
+
+collocation:
+  name: r3_continuous
+  n_per_epoch: 65536
+  batch_size: 64
+
+training:
+  diagnostics:
+    gradients: {every: 64}
+    snapshot_epochs: [1, 10, 50, 100, 200, 300, 400]

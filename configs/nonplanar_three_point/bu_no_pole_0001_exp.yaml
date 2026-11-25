@@ -1,0 +1,8 @@
+base: bu_no_pole_0001.yaml
+
+training:
+  scheduler:
+    name: exponential
+    gamma: 0.98288
+  diagnostics:
+    snapshot_epochs: [1, 10, 50, 100, 200, 300, 400]

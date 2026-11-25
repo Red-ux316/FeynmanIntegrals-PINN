@@ -1,0 +1,11 @@
+base: bu_phys_271_100_exp.yaml
+
+collocation:
+  name: r3_continuous
+  n_per_epoch: 65536
+  batch_size: 128
+
+training:
+  diagnostics:
+    gradients: {every: 64}
+    snapshot_epochs: [1, 10, 50, 100, 200, 300, 400]

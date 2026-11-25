@@ -1,0 +1,12 @@
+runs:
+  - {config: box_massless/bu_margin_01pc_exp, part: real, seed: 0}
+  - {config: box_massless/bu_margin_01pc_exp, part: real, seed: 1}
+  - {config: box_massless/bu_margin_01pc_exp, part: real, seed: 2}
+  - {config: box_massless/bu_margin_01pc_exp_1000ep, part: real, seed: 0}
+  - {config: box_massless/bu_margin_01pc_exp_1000ep, part: real, seed: 1}
+  - {config: box_massless/bu_margin_01pc_exp_1000ep, part: real, seed: 2}
+
+report:
+  name: bu_margin_long_massless
+  domains:
+    margin_01pc: box_massless/bu_margin_01pc_exp

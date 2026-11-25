@@ -1,0 +1,4 @@
+base: bu_baseline.yaml
+
+collocation:
+  n_per_epoch: 262144

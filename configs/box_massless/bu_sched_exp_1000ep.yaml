@@ -1,0 +1,9 @@
+base: bu_sched_exponential.yaml
+
+training:
+  epochs: 1000
+  scheduler:
+    name: exponential
+    gamma: 0.988553
+  diagnostics:
+    gradients: {every: 64}

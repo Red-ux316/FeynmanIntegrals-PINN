@@ -1,0 +1,4 @@
+base: bu_thr_left_001_exp_eps4.yaml
+
+point_weighting:
+  name: distance

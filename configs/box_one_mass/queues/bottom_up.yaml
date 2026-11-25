@@ -1,0 +1,12 @@
+runs:
+  - {config: box_one_mass/bu_baseline, part: real, seed: 0}
+  - {config: box_one_mass/bu_baseline, part: imag, seed: 0}
+  - {config: box_one_mass/bu_baseline, part: real, seed: 1}
+  - {config: box_one_mass/bu_baseline, part: imag, seed: 1}
+  - {config: box_one_mass/bu_baseline, part: real, seed: 2}
+  - {config: box_one_mass/bu_baseline, part: imag, seed: 2}
+  - {config: box_one_mass/bu_baseline, part: real, seed: 3}
+  - {config: box_one_mass/bu_baseline, part: imag, seed: 3}
+
+report:
+  name: bottom_up_one_mass

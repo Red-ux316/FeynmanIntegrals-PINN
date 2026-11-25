@@ -1,0 +1,81 @@
+runs:
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_r3_continuous_eps4, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4_p3, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_r3_continuous_eps4, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4_p3, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_r3_continuous_eps4, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4_p3, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_r3_continuous_eps4, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4_p3, part: real, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_r3_continuous_eps4, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4_p3, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_r3_continuous_eps4, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4_p3, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_r3_continuous_eps4, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4_p3, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_r3_continuous_eps4, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4_p3, part: real, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_r3_continuous_eps4, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4_p3, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_r3_continuous_eps4, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4_p3, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_r3_continuous_eps4, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4_p3, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_r3_continuous_eps4, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4_p3, part: real, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_r3_continuous_eps4, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4_p3, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_r3_continuous_eps4, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4_p3, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_r3_continuous_eps4, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4_p3, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_r3_continuous_eps4, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4_p3, part: imag, seed: 0}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_r3_continuous_eps4, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4_p3, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_r3_continuous_eps4, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4_p3, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_r3_continuous_eps4, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4_p3, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_r3_continuous_eps4, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4_p3, part: imag, seed: 1}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_r3_continuous_eps4, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_01_exp_eps4_p3, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_r3_continuous_eps4, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_01_exp_eps4_p3, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_r3_continuous_eps4, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_left_001_exp_eps4_p3, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_r3_continuous_eps4, part: imag, seed: 2}
+  - {config: nonplanar_three_point/bu_thr_right_001_exp_eps4_p3, part: imag, seed: 2}
+
+report:
+  name: bu_thr_nonplanar
+  domains:
+    thr_left_01: nonplanar_three_point/bu_thr_left_01_exp_eps4
+    thr_right_01: nonplanar_three_point/bu_thr_right_01_exp_eps4
+    thr_left_001: nonplanar_three_point/bu_thr_left_001_exp_eps4
+    thr_right_001: nonplanar_three_point/bu_thr_right_001_exp_eps4

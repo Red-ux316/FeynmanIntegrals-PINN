@@ -1,0 +1,4 @@
+base: bu_baseline.yaml
+
+training:
+  epochs: 600

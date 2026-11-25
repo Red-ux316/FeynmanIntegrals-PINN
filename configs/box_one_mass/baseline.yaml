@@ -1,0 +1,60 @@
+data:
+  problem: box_one_mass
+  domain:
+    name: triangle
+    margin: 0.1
+  datasets:
+    boundary:
+      sampler: boundary
+      n: 3
+    validation:
+      sampler: uniform
+      n: 1000
+      seed: 1
+    test:
+      sampler: uniform
+      n: 100000
+      seed: 2
+
+dtype: float64
+
+model:
+  name: mlp
+  in_features: 2
+  hidden: [64, 64, 64]
+  activation: gelu
+
+physics:
+  system: box_one_mass
+  input_scale: 10
+
+balancing:
+  name: relobralo
+  temperature: 1.0
+  alpha: 0.999
+  expected_rho: 0.999
+  history: paper
+
+collocation:
+  name: resample
+  n_per_epoch: 65536
+  batch_size: 128
+
+training:
+  epochs: 300
+  seed: 0
+  threads: 1
+  log_every: 10
+  checkpoint_every: 10
+  residual_stats_points: 1024
+  validation_physics: true
+  device: auto
+  optimizer:
+    name: adam
+    lr: 1.0e-3
+  scheduler:
+    name: reduce_on_plateau
+    factor: 0.5
+    patience: 10
+    cooldown: 10
+    min_lr: 1.0e-15

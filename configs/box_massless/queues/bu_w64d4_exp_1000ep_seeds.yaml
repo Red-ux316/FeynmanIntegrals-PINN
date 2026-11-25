@@ -1,0 +1,12 @@
+runs:
+  - {config: box_massless/bu_baseline, part: real, seed: 0}
+  - {config: box_massless/bu_baseline, part: real, seed: 1}
+  - {config: box_massless/bu_baseline, part: real, seed: 2}
+  - {config: box_massless/bu_w64d4_exp_1000ep, part: real, seed: 0}
+  - {config: box_massless/bu_w64d4_exp_1000ep, part: real, seed: 1}
+  - {config: box_massless/bu_w64d4_exp_1000ep, part: real, seed: 2}
+
+report:
+  name: bu_w64d4_exp_1000ep_seeds_massless
+  domains:
+    boni: box_massless/bu_baseline

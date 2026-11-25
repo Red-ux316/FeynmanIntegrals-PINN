@@ -1,0 +1,38 @@
+# Conda environment of the project.
+# Create:  conda env create -f environment.yml
+# Update:  conda env update -f environment.yml --prune
+#
+# Channel: Anaconda 'defaults'. PyTorch comes from 'defaults' too, a CPU build linked to MKL like numpy.
+# On Windows, start Python from an activated environment (conda activate pinn-feynman): PyTorch finds its DLLs
+# through the PATH that the activation sets.
+name: pinn-feynman
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  # Numerics and symbolic algebra
+  - numpy
+  - scipy
+  - sympy
+  - mpmath<1.4        # sympy 1.13.x (required by torch) needs mpmath<1.4
+  # Neural networks: CPU-only PyTorch, MKL build
+  - pytorch=2.14.*=cpu_mkl*
+  # Data handling and plotting
+  - pandas
+  # matplotlib-base: no Qt dependency (TkAgg and inline backends suffice)
+  - matplotlib-base
+  # Configuration, logging, progress
+  - pyyaml
+  - tqdm
+  - tensorboard
+  # Hyperparameter tuning
+  - optuna
+  # Testing
+  - pytest
+  - coverage
+  # Notebooks (Jupytext-paired .py <-> .ipynb)
+  - ipykernel
+  - jupytext
+  - pip
+  - pip:
+    - reportlab          # PDF output (pure Python)

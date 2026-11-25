@@ -1,0 +1,4 @@
+base: bu_baseline.yaml
+
+model:
+  hidden: [128, 128, 128]

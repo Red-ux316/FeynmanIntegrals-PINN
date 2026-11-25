@@ -1,0 +1,4 @@
+base: bu_baseline.yaml
+
+data:
+  domain: [-20.0, -0.1]

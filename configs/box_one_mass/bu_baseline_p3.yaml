@@ -1,0 +1,4 @@
+base: bu_baseline.yaml
+
+point_weighting:
+  name: distance

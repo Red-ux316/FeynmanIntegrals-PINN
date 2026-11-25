@@ -1,0 +1,21 @@
+runs:
+  - {config: box_massless/bu_baseline, part: real, seed: 0}
+  - {config: box_massless/bu_baseline, part: real, seed: 1}
+  - {config: box_massless/bu_baseline, part: real, seed: 2}
+  - {config: box_massless/bu_baseline, part: real, seed: 3}
+  - {config: box_massless/bu_baseline, part: real, seed: 4}
+  - {config: box_massless/bu_sched_exponential, part: real, seed: 0}
+  - {config: box_massless/bu_sched_exponential, part: real, seed: 1}
+  - {config: box_massless/bu_sched_exponential, part: real, seed: 2}
+  - {config: box_massless/bu_sched_exponential, part: real, seed: 3}
+  - {config: box_massless/bu_sched_exponential, part: real, seed: 4}
+  - {config: box_massless/bu_sched_exp_1000ep, part: real, seed: 0}
+  - {config: box_massless/bu_sched_exp_1000ep, part: real, seed: 1}
+  - {config: box_massless/bu_sched_exp_1000ep, part: real, seed: 2}
+  - {config: box_massless/bu_sched_exp_1000ep, part: real, seed: 3}
+  - {config: box_massless/bu_sched_exp_1000ep, part: real, seed: 4}
+
+report:
+  name: bu_seeds2_massless
+  domains:
+    boni: box_massless/bu_baseline

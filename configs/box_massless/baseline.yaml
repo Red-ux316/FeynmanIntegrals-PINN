@@ -1,0 +1,59 @@
+data:
+  problem: box_massless
+  domain: [-0.9, -0.1]
+  datasets:
+    boundary:
+      sampler: boundary
+      n: 2
+    validation:
+      sampler: uniform
+      n: 1000
+      seed: 1
+    test:
+      sampler: uniform
+      n: 100000
+      seed: 2
+      method: chebyshev
+      n_nodes: 128
+
+dtype: float64
+
+model:
+  name: mlp
+  hidden: [32, 32, 32]
+  activation: gelu
+
+physics:
+  system: box_massless
+  input_scale: 10
+
+balancing:
+  name: relobralo
+  temperature: 0.5
+  alpha: 0.999
+  expected_rho: 0.999
+  history: paper
+
+collocation:
+  name: base_points
+  n_base: 200000
+  n_per_epoch: 65536
+  batch_size: 64
+
+training:
+  epochs: 400
+  seed: 0
+  threads: 1
+  log_every: 10
+  checkpoint_every: 10
+  residual_stats_points: 1024
+  device: auto
+  optimizer:
+    name: adam
+    lr: 1.0e-2
+  scheduler:
+    name: reduce_on_plateau
+    factor: 0.5
+    patience: 5
+    cooldown: 5
+    min_lr: 1.0e-15

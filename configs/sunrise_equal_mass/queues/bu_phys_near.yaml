@@ -1,0 +1,35 @@
+runs:
+  - {config: sunrise_equal_mass/bu_phys_31_269, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_31_269_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_301_2699, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_100, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_100_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_2701_100, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_31_269, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_31_269_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_301_2699, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_100, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_100_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_2701_100, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_31_269, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_31_269_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_301_2699, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_301_2699_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_100, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_100_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_2701_100, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_2701_100_r3_continuous, part: real, seed: 2}
+
+report:
+  name: bu_phys_near_sunrise
+  domains:
+    s_01_29: sunrise_equal_mass/bu_phys_01_29
+    s_001_299: sunrise_equal_mass/bu_phys_001_299
+    s_31_269: sunrise_equal_mass/bu_phys_31_269
+    s_301_2699: sunrise_equal_mass/bu_phys_301_2699
+    s_271_100: sunrise_equal_mass/bu_phys_271_100
+    s_2701_100: sunrise_equal_mass/bu_phys_2701_100

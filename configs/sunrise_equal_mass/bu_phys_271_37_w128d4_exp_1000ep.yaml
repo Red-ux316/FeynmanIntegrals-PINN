@@ -1,0 +1,12 @@
+base: bu_phys_271_37.yaml
+
+model:
+  hidden: [128, 128, 128, 128]
+
+training:
+  epochs: 1000
+  scheduler:
+    name: exponential
+    gamma: 0.993116
+  diagnostics:
+    gradients: {every: 64}

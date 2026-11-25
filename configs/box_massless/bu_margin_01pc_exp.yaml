@@ -1,0 +1,8 @@
+base: bu_margin_01pc.yaml
+
+training:
+  scheduler:
+    name: exponential
+    gamma: 0.97163
+  diagnostics:
+    gradients: {every: 64}

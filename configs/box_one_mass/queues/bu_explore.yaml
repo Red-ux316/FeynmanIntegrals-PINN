@@ -1,0 +1,7 @@
+runs:
+  - {config: box_one_mass/bu_sched_exponential, part: real, seed: 0}
+  - {config: box_one_mass/bu_exp_cdata100, part: real, seed: 0}
+  - {config: box_one_mass/bu_r3_continuous_exp, part: real, seed: 0}
+
+report:
+  name: bu_explore_one_mass

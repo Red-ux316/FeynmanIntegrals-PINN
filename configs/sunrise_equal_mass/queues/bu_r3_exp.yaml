@@ -1,0 +1,45 @@
+runs:
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_above_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_above_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_3_27_exp, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_3_27_exp_r3_continuous, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_above_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_above_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_3_27_exp, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_3_27_exp_r3_continuous, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_37_exp_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_28_37_exp_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_above_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_above_exp_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_17_269_exp_r3_continuous, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_3_27_exp, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_3_27_exp_r3_continuous, part: real, seed: 2}
+
+report:
+  name: bu_r3_exp_sunrise
+  domains:
+    dom_001: sunrise_equal_mass/bu_dom_001_exp
+    dom_01: sunrise_equal_mass/bu_dom_01_exp
+    near_01_001: sunrise_equal_mass/bu_near_01_001_exp
+    near_1_001: sunrise_equal_mass/bu_near_1_001_exp
+    phys_271_37: sunrise_equal_mass/bu_phys_271_37_exp
+    phys_28_37: sunrise_equal_mass/bu_phys_28_37_exp
+    phys_above: sunrise_equal_mass/bu_phys_above_exp
+    phys_0_3: sunrise_equal_mass/bu_phys_0_3_exp
+    phys_17_269: sunrise_equal_mass/bu_phys_17_269_exp
+    phys_3_27: sunrise_equal_mass/bu_phys_3_27_exp

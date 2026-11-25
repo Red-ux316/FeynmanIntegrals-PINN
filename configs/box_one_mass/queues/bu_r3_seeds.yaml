@@ -1,0 +1,8 @@
+runs:
+  - {config: box_one_mass/bu_sched_exponential, part: real, seed: 1}
+  - {config: box_one_mass/bu_sched_exponential, part: real, seed: 2}
+
+report:
+  name: bu_r3_seeds_one_mass
+  domains:
+    triangle: box_one_mass/bu_baseline

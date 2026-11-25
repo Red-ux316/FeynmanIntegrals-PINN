@@ -1,0 +1,12 @@
+runs:
+  - {config: box_one_mass/bu_baseline, part: real, seed: 0}
+  - {config: box_one_mass/bu_baseline, part: real, seed: 1}
+  - {config: box_one_mass/bu_baseline, part: real, seed: 2}
+  - {config: box_one_mass/bu_w128d3_points4x, part: real, seed: 0}
+  - {config: box_one_mass/bu_w128d3_points4x, part: real, seed: 1}
+  - {config: box_one_mass/bu_w128d3_points4x, part: real, seed: 2}
+
+report:
+  name: bu_w128d3_points4x_seeds_one_mass
+  domains:
+    triangle: box_one_mass/bu_baseline

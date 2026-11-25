@@ -1,0 +1,16 @@
+runs:
+  - {config: box_massless/bu_near_03_0001, part: real, seed: 0}
+  - {config: box_massless/bu_near_001_0001, part: real, seed: 0}
+  - {config: box_massless/bu_near_m1, part: real, seed: 0}
+  - {config: box_massless/bu_near_03_0001, part: real, seed: 1}
+  - {config: box_massless/bu_near_001_0001, part: real, seed: 1}
+  - {config: box_massless/bu_near_m1, part: real, seed: 1}
+  - {config: box_massless/bu_near_03_0001, part: real, seed: 2}
+  - {config: box_massless/bu_near_001_0001, part: real, seed: 2}
+  - {config: box_massless/bu_near_m1, part: real, seed: 2}
+
+report:
+  name: bu_near_singularity_massless
+  domains:
+    near_001_0001: box_massless/bu_near_001_0001
+    near_03_0001: box_massless/bu_near_03_0001

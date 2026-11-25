@@ -1,0 +1,19 @@
+runs:
+  - {config: sunrise_equal_mass/bu_phys_17_269, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_17_269, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_17_269, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_17_269_w128d4_exp_1000ep, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_17_269_w128d4_exp_1000ep, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_17_269_w128d4_exp_1000ep, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37, part: real, seed: 2}
+  - {config: sunrise_equal_mass/bu_phys_271_37_w128d4_exp_1000ep, part: real, seed: 0}
+  - {config: sunrise_equal_mass/bu_phys_271_37_w128d4_exp_1000ep, part: real, seed: 1}
+  - {config: sunrise_equal_mass/bu_phys_271_37_w128d4_exp_1000ep, part: real, seed: 2}
+
+report:
+  name: bu_threshold_w128d4_exp_1000ep_sunrise
+  domains:
+    s_17_269: sunrise_equal_mass/bu_phys_17_269
+    s_271_37: sunrise_equal_mass/bu_phys_271_37

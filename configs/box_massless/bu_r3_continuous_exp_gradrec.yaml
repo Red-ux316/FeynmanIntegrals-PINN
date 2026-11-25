@@ -1,0 +1,5 @@
+base: bu_r3_continuous_exp.yaml
+
+training:
+  diagnostics:
+    gradients: {every: 64}

@@ -1,0 +1,12 @@
+runs:
+  - {config: box_massless/bu_baseline_gradrec, part: real, seed: 0}
+  - {config: box_massless/bu_baseline_gradrec, part: real, seed: 1}
+  - {config: box_massless/bu_baseline_gradrec, part: real, seed: 2}
+  - {config: box_massless/bu_sched_exp_1000ep, part: real, seed: 0}
+  - {config: box_massless/bu_margin_01pc_exp, part: real, seed: 0}
+
+report:
+  name: bu_explore2_massless
+  domains:
+    boni: box_massless/bu_baseline_gradrec
+    margin_01pc: box_massless/bu_margin_01pc_exp

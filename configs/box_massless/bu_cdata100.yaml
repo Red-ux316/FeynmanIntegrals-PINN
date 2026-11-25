@@ -1,0 +1,4 @@
+base: bu_baseline.yaml
+
+balancing:
+  scales: [100, 1]

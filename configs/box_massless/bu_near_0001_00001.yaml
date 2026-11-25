@@ -1,0 +1,15 @@
+base: bu_sched_exponential.yaml
+
+data:
+  domain: [-0.001, -0.0001]
+  datasets:
+    test:
+      n_nodes: 1024
+
+physics:
+  input_scale: 10000
+
+training:
+  diagnostics:
+    gradients: {every: 64}
+    snapshot_epochs: [1, 10, 50, 100, 200, 300, 400]

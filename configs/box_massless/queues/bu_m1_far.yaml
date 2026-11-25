@@ -1,0 +1,18 @@
+runs:
+  - {config: box_massless/bu_near_m1_far, part: real, seed: 0}
+  - {config: box_massless/bu_near_m1_far_r3_continuous, part: real, seed: 0}
+  - {config: box_massless/bu_near_m1_far, part: real, seed: 1}
+  - {config: box_massless/bu_near_m1_far_r3_continuous, part: real, seed: 1}
+  - {config: box_massless/bu_near_m1_far, part: real, seed: 2}
+  - {config: box_massless/bu_near_m1_far_r3_continuous, part: real, seed: 2}
+  - {config: box_massless/bu_near_m1_far, part: imag, seed: 0}
+  - {config: box_massless/bu_near_m1_far_r3_continuous, part: imag, seed: 0}
+  - {config: box_massless/bu_near_m1_far, part: imag, seed: 1}
+  - {config: box_massless/bu_near_m1_far_r3_continuous, part: imag, seed: 1}
+  - {config: box_massless/bu_near_m1_far, part: imag, seed: 2}
+  - {config: box_massless/bu_near_m1_far_r3_continuous, part: imag, seed: 2}
+
+report:
+  name: bu_m1_far_massless
+  domains:
+    m1_far: box_massless/bu_near_m1_far

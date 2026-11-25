@@ -1,0 +1,5 @@
+base: bu_sched_exponential.yaml
+
+training:
+  diagnostics:
+    gradients: {every: 64}
