@@ -7,6 +7,9 @@ This is the code of the project for the QCD course of prof. P. Mastrolia (Univer
 thesis of G. Boni (*Differential Equations for Feynman Integrals and Physics Informed Neural Network*, Padua,
 A.Y. 2023/2024, supervisor M. K. Mandal, co-supervisor P. Mastrolia).
 
+The final report of the project, with the method, the four integrals and the results, is
+[report.pdf](report.pdf).
+
 ## What the code does
 
 The master integrals of a diagram satisfy a system of first-order differential equations in the kinematic variables,
@@ -32,6 +35,7 @@ equations at collocation points, the two losses balanced by ReLoBRaLo, as in Bon
 | [notebooks/](notebooks/README.md) | `run_local`: runs one or more queues on this machine, then evaluates the finished runs |
 | [frobenius/](frobenius/README.md) | Frobenius expansion of the massless box around $x=0$: analytic and singular part, error of the truncated series |
 | [docs/](docs/README.md) | tutorial and code map |
+| [report.pdf](report.pdf) | the final report of the project |
 
 ## Installation
 
