@@ -1,8 +1,8 @@
 data:
-  problem: sunrise_equal_mass
+  problem: sunrise_equal_mass_positive
   domain:
-  - -10.0
-  - -1.0
+  - 4.0
+  - 24.0
   datasets:
     boundary:
       sampler: boundary
@@ -24,7 +24,7 @@ model:
   - 64
   activation: gelu
 physics:
-  system: sunrise_equal_mass_bu
+  system: sunrise_equal_mass_positive_bu
   input_scale: 1
 balancing:
   name: relobralo
